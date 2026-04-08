@@ -1,5 +1,4 @@
 # Logs
-# Logs
 logs
 *.log
 npm-debug.log*
@@ -7,17 +6,6 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-
-<<<<<<< HEAD
-.env
-
-=======
->>>>>>> 7e9870bab7652905342204dd669bdd6879cf97ad
-# Runtime files
-pids
-*.pid
-*.seed
-*.pid.lock
 
 # Dependency directories
 node_modules/
@@ -27,7 +15,7 @@ dist/
 dist-ssr/
 build/
 
-# Environment variables (VERY IMPORTANT)
+# Environment variables (IMPORTANT)
 .env
 .env.*
 *.local
@@ -48,10 +36,10 @@ Thumbs.db
 *.sln
 *.sw?
 
-# Backend specific (if using Node/Express)
+# Backend specific
 coverage/
 logs/
 tmp/
 
-# Optional (if using MongoDB locally)
+# Optional (MongoDB local)
 *.db
