@@ -1,0 +1,54 @@
+# Logs
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+.env
+
+# Runtime files
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+
+# Environment variables (VERY IMPORTANT)
+.env
+.env.*
+*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# Misc
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Backend specific (if using Node/Express)
+coverage/
+logs/
+tmp/
+
+# Optional (if using MongoDB locally)
+*.db
