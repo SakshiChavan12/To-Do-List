@@ -8,8 +8,11 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+<<<<<<< HEAD
 .env
 
+=======
+>>>>>>> 7e9870bab7652905342204dd669bdd6879cf97ad
 # Runtime files
 pids
 *.pid
