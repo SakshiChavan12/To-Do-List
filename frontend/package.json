@@ -2,13 +2,11 @@
   "name": "to-do-list",
   "version": "1.0.0",
   "type": "module",
-
-
-"scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview"
-},
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.2",
     "axios": "^1.14.0",
@@ -22,10 +20,10 @@
     "tailwindcss": "^4.2.2"
   },
   "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.1",
     "nodemon": "^3.1.14"
   },
-
   "engines": {
-  "node": "20.x"
-}
+    "node": "20.x"
+  }
 }
